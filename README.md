@@ -40,19 +40,6 @@ pub fn main() !void {
     try ds.formatAsTable(stdout);
 }
 ```
-
-## Project Structure
-
-```
-libdata/
-├── src/
-│   ├── main.zig      # Example usage and tests
-│   ├── dataset.zig   # Dataset implementation
-│   └── tensor.zig    # Tensor operations
-├── build.zig         # Build system
-└── build.zig.zon     # Dependencies
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
